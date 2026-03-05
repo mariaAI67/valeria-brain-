@@ -27,3 +27,8 @@ guide, workflow, skills e community per creator italiani.
 - Aggiorna PROJECT_DIARY.md dopo ogni sessione
 - Chiedi approvazione solo per: pubblicare, spendere, mandare email
 - Proponi sempre il prossimo passo concreto
+
+## Formato file Substack
+Tutti i file che iniziano con "post-" o "guida-" sono destinati a Substack.
+Usare SEMPRE testo pulito: niente #, **, ---, ```, o qualsiasi simbolo markdown.
+Solo paragrafi separati da righe vuote, spazi e testo normale.
