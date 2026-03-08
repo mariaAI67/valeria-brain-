@@ -1,0 +1,107 @@
+{
+  "name": "Tip Giornaliero → X + Instagram",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "15 9 * * *"
+            }
+          ]
+        }
+      },
+      "id": "node-cron",
+      "name": "Ogni giorno alle 9:15",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// ✏️ AGGIORNA QUESTO TESTO OGNI GIORNO CON IL NUOVO TIP\nconst tip = `ZeroClaw consuma 3MB di RAM. ChatGPT ne usa 300x di più per fare le stesse cose.\n\nMeno bloat, più velocità. Il futuro degli agenti AI è leggero.\n\n#ZeroClaw #AI #AgentiAI`;\n\nreturn [{ json: { text: tip } }];"
+      },
+      "id": "node-tip-code",
+      "name": "Tip del Giorno",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://backend.blotato.com/v2/posts",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "blotato-api-key",
+              "value": "blt_KMWMQOMzf8az4pk5ew/zqldS0IvnGt4KRr6B4p6Yq7w="
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": []
+        },
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"post\": {\n    \"text\": \"{{ $('Tip del Giorno').item.json.text }}\"\n  },\n  \"targets\": [\n    {\n      \"accountId\": \"13608\"\n    }\n  ]\n}"
+      },
+      "id": "node-x",
+      "name": "Pubblica su X (@ValeriaAizero)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [680, 180]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://backend.blotato.com/v2/posts",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "blotato-api-key",
+              "value": "blt_KMWMQOMzf8az4pk5ew/zqldS0IvnGt4KRr6B4p6Yq7w="
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": []
+        },
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"post\": {\n    \"text\": \"{{ $('Tip del Giorno').item.json.text }}\"\n  },\n  \"targets\": [\n    {\n      \"accountId\": \"34050\"\n    }\n  ]\n}"
+      },
+      "id": "node-instagram",
+      "name": "Pubblica su Instagram (@valeriaai.zero)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [680, 420]
+    }
+  ],
+  "connections": {
+    "Ogni giorno alle 9:15": {
+      "main": [[{"node": "Tip del Giorno", "type": "main", "index": 0}]]
+    },
+    "Tip del Giorno": {
+      "main": [[
+        {"node": "Pubblica su X (@ValeriaAizero)", "type": "main", "index": 0},
+        {"node": "Pubblica su Instagram (@valeriaai.zero)", "type": "main", "index": 0}
+      ]]
+    }
+  },
+  "settings": {"executionOrder": "v1"},
+  "staticData": null,
+  "tags": ["zeroclaw", "automazione", "social"],
+  "meta": {"instanceId": ""}
+}

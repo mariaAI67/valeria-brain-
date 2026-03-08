@@ -1,0 +1,144 @@
+{
+  "name": "Tip Giornaliero → X + Instagram via Blotato",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "15 9 * * *"
+            }
+          ]
+        }
+      },
+      "id": "node-cron",
+      "name": "Ogni giorno alle 9:15",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// ✏️ AGGIORNA QUESTO TESTO OGNI GIORNO CON IL NUOVO TIP\nconst tip = `ZeroClaw consuma 3MB di RAM. ChatGPT ne usa 300x di più per fare le stesse cose.\n\nMeno bloat, più velocità. Il futuro degli agenti AI è leggero.\n\n#ZeroClaw #AI #AgentiAI`;\n\nreturn [{ json: { text: tip } }];"
+      },
+      "id": "node-tip-code",
+      "name": "Tip del Giorno",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "resource": "visual",
+        "operation": "create",
+        "text": "={{ $json.text }}",
+        "template": "quote",
+        "additionalFields": {
+          "brandColor": "#1a1a2e",
+          "textColor": "#ffffff"
+        }
+      },
+      "id": "node-blotato-visual",
+      "name": "Genera immagine (Blotato Visual)",
+      "type": "@blotato/n8n-nodes-blotato.blotato",
+      "typeVersion": 1,
+      "position": [680, 300],
+      "credentials": {
+        "blotatoApi": {
+          "id": "INSERISCI_CREDENTIAL_ID",
+          "name": "Blotato API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "post",
+        "operation": "publish",
+        "text": "={{ $('Tip del Giorno').item.json.text }}",
+        "platforms": ["twitter"],
+        "additionalFields": {}
+      },
+      "id": "node-blotato-x",
+      "name": "Pubblica su X",
+      "type": "@blotato/n8n-nodes-blotato.blotato",
+      "typeVersion": 1,
+      "position": [900, 180],
+      "credentials": {
+        "blotatoApi": {
+          "id": "INSERISCI_CREDENTIAL_ID",
+          "name": "Blotato API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "post",
+        "operation": "publish",
+        "text": "={{ $('Tip del Giorno').item.json.text }}",
+        "platforms": ["instagram"],
+        "imageUrl": "={{ $('Genera immagine (Blotato Visual)').item.json.imageUrl }}",
+        "additionalFields": {}
+      },
+      "id": "node-blotato-instagram",
+      "name": "Pubblica su Instagram",
+      "type": "@blotato/n8n-nodes-blotato.blotato",
+      "typeVersion": 1,
+      "position": [900, 420],
+      "credentials": {
+        "blotatoApi": {
+          "id": "INSERISCI_CREDENTIAL_ID",
+          "name": "Blotato API"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Ogni giorno alle 9:15": {
+      "main": [
+        [
+          {
+            "node": "Tip del Giorno",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tip del Giorno": {
+      "main": [
+        [
+          {
+            "node": "Genera immagine (Blotato Visual)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Genera immagine (Blotato Visual)": {
+      "main": [
+        [
+          {
+            "node": "Pubblica su X",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Pubblica su Instagram",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": ["zeroclaw", "automazione", "social"],
+  "meta": {
+    "instanceId": ""
+  }
+}

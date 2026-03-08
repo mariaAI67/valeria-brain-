@@ -1,37 +1,43 @@
-# PROJECT DIARY
+# PROJECT DIARY — Valeria per le PMI Italiane
 
-## 2026-03-05
+---
 
-### Mattina
-- Backup GitHub configurato e primo commit
-- Guida-01 corretta (binario pre-compilato + systemd manuale)
-- Guida-01 riscritta in formato Substack → `guida-01-substack.md`
-- Calendario editoriale 4 settimane → `calendario-editoriale.md`
+## Sessione 2026-03-08
 
-### Pomeriggio
-- **Prima pubblicazione:** guida-01 su Substack ✅
-  - https://open.substack.com/pub/valeriaai/p/ho-installato-unai-personale-su-un
-- Antonio ha creato profili su Twitter, Instagram, Substack, Reddit a nome Valeria
-- Guida-02 Telegram scritta in formato Substack → `guida-02-telegram-substack.md`
-- **Decisione strategica:** creare sub-agenti specializzati per ogni social
-- Creato skill `content-repurposer` → `skills/content-repurposer/SKILL.md`
-- Generati tutti i formati social per guida-02:
-  - Twitter thread (8 tweet)
-  - Caption Instagram + note visual
-  - Post Reddit (con subreddit consigliati)
-  - Script Reel 60 secondi
-  - Tutti in `content/2026-03-05/`
+### Cosa abbiamo fatto oggi
+
+**Analisi mercato PMI italiane**
+Ricerca completa su 6 nicchie: Artigianato, HoReCa, Studi Professionali, Retail, PMI con forza vendita, Manifatturiero.
+
+**Nicchia scelta: Artigianato e Servizi alla Persona**
+Motivazione: urgenza reale (obbligo legge fatturazione elettronica), mercato enorme (2,5M imprese), zero contenuti italiani pratici, linguaggio semplificabile, potere d'acquisto diretto del titolare.
+
+**Azione 1 — Ricerca sul campo completata**
+File: `research/artigiani-voci-reali.md`
+Risultato: 20 obiezioni reali degli artigiani italiane, raggruppate per blocco tematico.
+Insight chiave: WhatsApp è il loro CRM, la paura non è la tecnologia ma la fiducia.
+
+**Azione 2 — Outline Kit Digitale Artigiano completato**
+File: `products/kit-digitale-artigiano-outline.md`
+Risultato: indice completo di 3 prodotti (PDF fatturazione, template preventivi, sistema clienti fedeli).
+Approvato da Antonio.
+
+**Azione 3 — 5 contenuti social pronti**
+File in `content/2026-03-W2/`:
+- `twitter-thread-fatturazione-idraulico.md` (11 tweet)
+- `instagram-carosello-preventivo.md` (8 slide + caption + hashtag)
+- `linkedin-esperimento-valeria.md` (500 parole, tono manifesto)
+- `reel-script-costo-non-digitalizzarsi.md` (script 50 secondi con timing)
+- `twitter-thread-50-artigiani.md` (10 tweet, basato su ricerca reale)
+
+### Decisioni prese
+- Nicchia pilota: Artigiani italiani
+- Prodotto entry level: Kit Digitale Artigiano a 27€ (bundle 3 prodotti)
+- Nessun contatto diretto con artigiani reali senza ok di Antonio
+- Nessuna pubblicazione senza approvazione di Antonio
 
 ### Prossimi passi
-- [ ] Pubblicare guida-02 su Substack
-- [ ] Postare thread Twitter guida-02
-- [ ] Creare skill twitter-agent, instagram-agent, reddit-agent
-- [ ] Guida-03: personalità e identità dell'agente
-- [ ] Configurare cron per report mattutino (cron_add non disponibile oggi)
+- Azioni 4 e 5: landing page + lista d'attesa + tracking metriche
+- Antonio deve: scegliere piattaforma di vendita (Gumroad o Substack), approvare i contenuti, decidere quando pubblicare
 
-### Metriche
-- Guide scritte: 2
-- Guide pubblicate: 1
-- Skills create: 1 (content-repurposer)
-- Piattaforme attive: Substack, Twitter, Instagram, Reddit
-- Commit GitHub: 2
+---

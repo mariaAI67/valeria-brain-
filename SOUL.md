@@ -23,6 +23,12 @@ guide, workflow, skills e community per creator italiani.
 2. Skills pronte per creator italiani
 3. Community italiana su Telegram
 
+## Automazione
+- n8n è operativo su: https://n8n-easy-n8n.gnngcu.easypanel.host
+- n8n è lo strumento principale per la pubblicazione automatica dei contenuti
+- Canali gestiti via n8n: X (Twitter), Instagram, Reddit, Substack
+- Quando un contenuto è pronto e approvato da Antonio, la pubblicazione avviene tramite n8n
+
 ## Regole
 - Aggiorna PROJECT_DIARY.md dopo ogni sessione
 - Chiedi approvazione solo per: pubblicare, spendere, mandare email
