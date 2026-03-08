@@ -1,0 +1,433 @@
+/* ===========================
+   Kit Digitale Artigiano
+   Design: pulito, caldo, mobile-first
+   =========================== */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --arancio: #E8631A;
+  --arancio-scuro: #C4511A;
+  --blu-scuro: #1A2332;
+  --grigio-testo: #4A5568;
+  --grigio-chiaro: #F7F7F5;
+  --bianco: #FFFFFF;
+  --bordo: #E2E8F0;
+  --verde: #2D7D46;
+  --font: 'Georgia', 'Times New Roman', serif;
+  --font-sans: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--blu-scuro);
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* HERO */
+.hero {
+  background: var(--blu-scuro);
+  color: var(--bianco);
+  padding: 80px 0 72px;
+  text-align: center;
+}
+
+.eyebrow {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #94A3B8;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-family: var(--font);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: var(--bianco);
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  color: #CBD5E1;
+  max-width: 640px;
+  margin: 0 auto 36px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: var(--arancio);
+  color: var(--bianco);
+  padding: 16px 36px;
+  border-radius: 6px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover { background: var(--arancio-scuro); }
+
+.sotto-cta {
+  font-size: 13px;
+  color: #94A3B8;
+  margin-top: 12px;
+}
+
+/* PROBLEMA */
+.problema {
+  background: var(--grigio-chiaro);
+  padding: 72px 0;
+}
+
+.problema h2, .costo h2, .soluzione h2, .prezzo h2, .chi-sono h2, .faq h2, .cta-finale h2 {
+  font-family: var(--font);
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  margin-bottom: 36px;
+  line-height: 1.3;
+}
+
+.frasi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.frase {
+  background: var(--bianco);
+  border-left: 4px solid var(--arancio);
+  padding: 18px 20px;
+  font-style: italic;
+  color: var(--grigio-testo);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.95rem;
+}
+
+.problema-conclusione {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--arancio);
+}
+
+/* COSTO */
+.costo {
+  padding: 72px 0;
+  background: var(--bianco);
+}
+
+.calcolo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.calcolo-item {
+  text-align: center;
+  padding: 28px 20px;
+  border: 2px solid var(--bordo);
+  border-radius: 8px;
+}
+
+.numero {
+  display: block;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--arancio);
+  font-family: var(--font);
+}
+
+.label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--grigio-testo);
+  margin-top: 8px;
+}
+
+.costo-nota {
+  color: var(--grigio-testo);
+  font-style: italic;
+  max-width: 640px;
+}
+
+/* SOLUZIONE */
+.soluzione {
+  background: var(--grigio-chiaro);
+  padding: 72px 0;
+}
+
+.soluzione-intro {
+  font-size: 1.1rem;
+  color: var(--grigio-testo);
+  margin-bottom: 48px;
+  max-width: 640px;
+}
+
+.prodotti-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.prodotto {
+  background: var(--bianco);
+  border-radius: 10px;
+  padding: 36px;
+  position: relative;
+  border: 1px solid var(--bordo);
+}
+
+.prodotto-numero {
+  width: 44px;
+  height: 44px;
+  background: var(--arancio);
+  color: var(--bianco);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.prodotto h3 {
+  font-family: var(--font);
+  font-size: 1.4rem;
+  margin-bottom: 6px;
+}
+
+.prodotto-tipo {
+  font-size: 0.85rem;
+  color: var(--arancio);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 14px;
+}
+
+.prodotto p { color: var(--grigio-testo); margin-bottom: 14px; }
+
+.prodotto ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.prodotto ul li {
+  padding: 6px 0;
+  padding-left: 22px;
+  position: relative;
+  color: var(--grigio-testo);
+  font-size: 0.95rem;
+}
+
+.prodotto ul li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--verde);
+  font-weight: 700;
+}
+
+.obiezione-risposta {
+  background: #FFF8F3;
+  border-left: 3px solid var(--arancio);
+  padding: 14px 16px;
+  font-size: 0.9rem;
+  color: var(--grigio-testo);
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 0 !important;
+}
+
+/* PREZZO */
+.prezzo {
+  background: var(--blu-scuro);
+  color: var(--bianco);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.prezzo h2 { color: var(--bianco); }
+
+.prezzo-box {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.prezzo-dettaglio p {
+  padding: 8px 0;
+  color: #CBD5E1;
+  font-size: 0.95rem;
+}
+
+.prezzo-numero { text-align: center; }
+
+.prezzo-grande {
+  display: block;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: var(--font);
+  color: var(--bianco);
+}
+
+.prezzo-iva {
+  display: block;
+  font-size: 0.8rem;
+  color: #94A3B8;
+  margin-top: 6px;
+}
+
+.garanzia {
+  color: #94A3B8;
+  font-size: 0.9rem;
+  margin-bottom: 48px;
+}
+
+/* FORM */
+.form-attesa {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.form-attesa h3 {
+  font-family: var(--font);
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: var(--bianco);
+}
+
+.form-attesa > p {
+  color: #94A3B8;
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form input {
+  padding: 14px 16px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.08);
+  color: var(--bianco);
+  font-size: 0.95rem;
+  font-family: var(--font-sans);
+}
+
+.form input::placeholder { color: #64748B; }
+.form input:focus { outline: 2px solid var(--arancio); border-color: transparent; }
+
+.form-nota {
+  font-size: 0.8rem;
+  color: #64748B;
+  margin-top: 12px;
+}
+
+/* CHI SONO */
+.chi-sono {
+  padding: 72px 0;
+  background: var(--bianco);
+}
+
+.chi-sono p {
+  color: var(--grigio-testo);
+  margin-bottom: 16px;
+  max-width: 680px;
+}
+
+/* FAQ */
+.faq {
+  background: var(--grigio-chiaro);
+  padding: 72px 0;
+}
+
+.faq-item {
+  background: var(--bianco);
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin-bottom: 16px;
+  border: 1px solid var(--bordo);
+}
+
+.faq-item h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--blu-scuro);
+}
+
+.faq-item p { color: var(--grigio-testo); font-size: 0.95rem; }
+
+/* CTA FINALE */
+.cta-finale {
+  background: var(--arancio);
+  color: var(--bianco);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.cta-finale h2 { color: var(--bianco); margin-bottom: 16px; }
+
+.cta-finale p {
+  font-size: 1.05rem;
+  max-width: 580px;
+  margin: 0 auto 32px;
+  opacity: 0.9;
+}
+
+.cta-finale .btn-primary {
+  background: var(--bianco);
+  color: var(--arancio);
+}
+
+.cta-finale .btn-primary:hover { background: #F1F5F9; }
+.cta-finale .sotto-cta { color: rgba(255,255,255,0.7); }
+
+/* FOOTER */
+footer {
+  background: var(--blu-scuro);
+  color: #64748B;
+  padding: 32px 0;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+footer p { margin-bottom: 6px; }
+footer a { color: #94A3B8; text-decoration: none; }
+footer a:hover { color: var(--bianco); }
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .prezzo-box { flex-direction: column; text-align: center; }
+  .prodotto { padding: 24px 20px; }
+  .form-attesa { padding: 28px 20px; }
+}
