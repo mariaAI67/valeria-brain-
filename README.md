@@ -1,11 +1,11 @@
-# va# PROGETTO VALERIA — DOCUMENTO MASTER
+## PROGETTO VALERIA — DOCUMENTO MASTER
 ### Versione 1.0 — Marzo 2026
 
 ---
 
 ## VISIONE
 
-Valeria è un agente AI pubblico che aiuta le PMI italiane ad adottare l'intelligenza artificiale e automatizzare i processi aziendali. Vende guide pratiche, workflow pronti all'uso, automazioni chiavi in mano e siti web. Cresce organicamente sui social, costruisce fiducia, poi converte.
+Valeria è un agente AI pubblico che aiuta le PMI italiane ad adottare l'intelligenza artificiale e automatizzare i processi aziendali. Vende guide pratiche, workflow pronti all'uso, automazioni chiavi in mano e siti web. Cresce organicamente sui social, costruisce fiducia, poi converte. Idea di dashboard SaaS da valutare.
 
 **Antonio** impara insieme al progetto, supervisiona le decisioni chiave e dedica le sue 2 ore giornaliere solo a ciò che i tool non possono fare.
 
@@ -91,22 +91,22 @@ Valeria è un agente AI pubblico che aiuta le PMI italiane ad adottare l'intelli
 
 ---
 
-### 📢 BLOTATO — Distribuzione contenuti
+### 📢 BUFFER — Distribuzione contenuti
 **Fa:**
 - Prende le bozze approvate da Antonio
-- Le pubblica su tutti i canali (Substack, X, Instagram, TikTok)
+- Le pubblica su tutti i canali (Linkenid, X, Instagram, TikTok)
 - Gestisce il Content Calendar
-- Account configurati: Instagram ✅ — X/Twitter (OAuth in attesa) — TikTok (ID 32302, da configurare) In alternativa Buffer, per costi minori e maggiore semplicità.
+- Account configurati: Instagram ✅ — X/Twitter (OAuth in attesa) — TikTok (da configurare) 
 
 ---
 
 ### ⚙️ N8N — Automazione flussi
-**Gira su:** Docker, VPS Hetzner (già attivo)  
+**Gira su:** Docker, VPS Hetzner (già attivo, non configurato)  
 **Fa:**
 - Collega tool diversi (Stripe → email, form → CRM, ecc.)
 - Gestisce la consegna automatica dei prodotti via Resend
 - Backup notturno workspace Valeria su GitHub
-
+- Valutare se dare a Valeria tutto il sistema da gestire (n8n verrebbe meno)
 ---
 
 ## PRODOTTI DA VENDERE (pipeline)
@@ -152,16 +152,16 @@ Valeria è un agente AI pubblico che aiuta le PMI italiane ad adottare l'intelli
 |---|---|---|
 | ZeroClaw v0.1.7 | Agente Valeria su VPS | ✅ Attivo |
 | Claude Pro + Projects | Strategia + operations | ✅ Attivo |
-| Blotato | Distribuzione social | ✅ Attivo (Instagram OK) |
+| Buffer | Distribuzione social | ✅ Attivo (Instagram OK) |
 | Perplexity Pro | Ricerca intelligence | ✅ Attivo |
 | NotebookLM | Biblioteca tecnica | ✅ Attivo |
 | n8n (Docker VPS) | Automazioni flussi | ✅ Attivo |
 | Gemini Plus | Supporto AI aggiuntivo | ✅ Attivo |
 | Tavily | Ricerca web per Valeria | ✅ Attivo |
 | GitHub valeria-memory | Backup memoria | ✅ Creato |
-| Stripe | Pagamenti | ⏳ Fase 2 |
+| Stripe | Pagamenti | ✅ Attivo |
 | Resend | Email automatiche | ⏳ Fase 2 |
-| Vercel | Landing page | ⏳ Fase 2 |
+| Vercel | Landing page | ✅ Attivo |
 | VS Code / Cursor | Sviluppo tecnico | ✅ Disponibile |
 
 ---
@@ -169,21 +169,21 @@ Valeria è un agente AI pubblico che aiuta le PMI italiane ad adottare l'intelli
 ## PROSSIMI PASSI IN ORDINE
 
 ### QUESTA SETTIMANA — Completare la base
-1. **Configurare Tavily** in ZeroClaw (20 min) → Valeria può cercare autonomamente
-2. **Creare USER.md** nel workspace di Valeria → sa chi è Antonio e le regole
-3. **Configurare TikTok su Blotato** (account ID 32302) → flusso completo
+1. **Configurare Tavily** in ZeroClaw (20 min) → ✅ Creato
+2. **Creare USER.md** nel workspace di Valeria → sa chi è Antonio e le regole✅ Creato
+3. **Configurare TikTok su Buffer**  → flusso completo
 4. **Riprovare OAuth X/Twitter** (@ValeriaAizero) → sono passati 2 giorni
-5. **Costruire flusso-giornaliero.sh** → automatizza la routine delle 16:00
+5. **Costruire flusso-giornaliero.sh** → automatizza la routine delle 17:00
 
 ### SETTIMANA PROSSIMA — Primo prodotto
 6. Valeria fa ricerca con Tavily → 3 bisogni concreti delle PMI italiane
 7. Antonio sceglie il bisogno su cui lavorare
 8. Claude scrive la prima guida PDF (20 pagine)
 9. Antonio legge e approva
-10. Valeria crea la landing page su Vercel
+10. Valeria crea la landing page su Vercel ✅ Creato
 
 ### MESE 2 — Lancio e prima vendita
-11. Configurare Stripe con dati reali di Antonio
+11. Configurare Stripe con dati reali di Antonio ✅ Creato
 12. Configurare Resend per consegna automatica PDF
 13. Primo post di lancio su tutti i canali
 14. Monitoraggio e analisi risultati
