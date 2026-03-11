@@ -157,7 +157,7 @@ Valeria è un agente AI pubblico che aiuta le PMI italiane ad adottare l'intelli
 | NotebookLM | Biblioteca tecnica | ✅ Attivo |
 | n8n (Docker VPS) | Automazioni flussi | ✅ Attivo |
 | Gemini Plus | Supporto AI aggiuntivo | ✅ Attivo |
-| Tavily | Ricerca web per Valeria | ⚠️ Da configurare |
+| Tavily | Ricerca web per Valeria | ✅ Attivo |
 | GitHub valeria-memory | Backup memoria | ✅ Creato |
 | Stripe | Pagamenti | ⏳ Fase 2 |
 | Resend | Email automatiche | ⏳ Fase 2 |
