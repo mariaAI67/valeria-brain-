@@ -105,3 +105,9 @@ Basato su Felix Craft framework:
 - Problema rilevato: Valeria fingeva di leggere file, ora ha regola esplicita
 - Problema rilevato: LinkedIn non pubblicava (ID sbagliato "linkedin" → "15361")
 - Publisher ora ogni ora (era ogni 15 min)
+
+### 2026-03-22
+- Continua pubblicazione coerente sui 3 canali principali (Twitter, LinkedIn, Instagram)
+- Tema dominante oggi: trasformazione digitale nelle PMI italiane
+- Processo di pubblicazione automatizzato funziona correttamente
+- Contenuti adattati al formato di ogni piattaforma mantenendo coerenza tematica
