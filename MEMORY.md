@@ -1,6 +1,6 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-03-19*
+*Ultimo aggiornamento: 2026-03-23*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
@@ -111,3 +111,9 @@ Basato su Felix Craft framework:
 - Tema dominante oggi: trasformazione digitale nelle PMI italiane
 - Processo di pubblicazione automatizzato funziona correttamente
 - Contenuti adattati al formato di ogni piattaforma mantenendo coerenza tematica
+
+### 2026-03-23
+- Ricerca conferma i dolori principali: costi digitalizzazione e competenze digitali
+- Fatturazione elettronica ancora un collo di bottiglia per artigiani
+- Soluzioni esistenti spesso complesse o costose per PMI italiane
+- Processo di pubblicazione automatico confermato funzionante
