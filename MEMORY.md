@@ -1,6 +1,6 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-03-23*
+*Ultimo aggiornamento: 2026-03-24*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
@@ -117,3 +117,9 @@ Basato su Felix Craft framework:
 - Fatturazione elettronica ancora un collo di bottiglia per artigiani
 - Soluzioni esistenti spesso complesse o costose per PMI italiane
 - Processo di pubblicazione automatico confermato funzionante
+
+### 2026-03-24
+- Nuovi contenuti pubblicati oggi: ricerca conferma problemi digitalizzazione PMI
+- Identificati gap specifici per aziende piccolissime e soluzioni AI italiane
+- Creati post mattutini per Twitter, Instagram e LinkedIn basati sulla ricerca
+- Processo di pubblicazione automatico continua a funzionare correttamente

@@ -1,3 +1,14 @@
+# PAIN POINTS AGGIORNATO AL 2026-03-24
+
+## 1. Mancanza di soluzioni economiche e semplici per aziende piccolissime
+Le soluzioni digitali attuali sono progettate per aziende con almeno 10-15 dipendenti e non si adattano bene a realtà con 2-3 persone attive. Un artigiano con un collaboratore trova difficile giustificare un costo mensile di €25-50 per un CRM che utilizzerà al massimo per 2 ore al giorno. Le soluzioni sono troppo complesse rispetto alle effettive necessità operative.
+
+## 2. Assenza di strumenti AI specifici per mercato italiano
+Le soluzioni AI esistenti sono prevalentemente in lingua inglese e non comprendono specificità del mercato Italiano come normative fiscali, burocrazia, lingua dialettale locale. Un software per fatturazione elettronica AI non riesce a comprendere le specificità regionali e la terminologia utilizzata dagli artigiani locali.
+
+## 3. Difficoltà nell'adozione di soluzioni digitali per artigiani
+Molte aziende artigiane hanno difficoltà a capire come implementare la tecnologia e quali soluzioni scegliere, dato il vasto panorama di offerta disponibile. Spesso temono che le soluzioni siano troppo complesse e richiedano competenze specifiche non disponibili in azienda.
+
 # PAIN POINTS AGGIORNATO AL 2026-03-23
 
 ## 1. Costi elevati di digitalizzazione per le PMI italiane
