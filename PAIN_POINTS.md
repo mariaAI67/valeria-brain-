@@ -1,3 +1,20 @@
+# PAIN POINTS AGGIORNATO AL 2026-03-25
+
+## 1. Costo vs Beneficio per PMI piccolissime
+Le soluzioni esistenti sono progettate per PMI medie (10-50 dipendenti) ma non per le micro-imprese (1-5 addetti) che rappresentano la maggioranza delle aziende italiane. Un CRM da €40/utente/mese diventa proibitivo per un artigiano con un solo collaboratore. Il costo di soluzioni complete (da €300-2000/mese) è sproporzionato rispetto ai benefici per aziende con pochi dipendenti.
+
+## 2. Complessità tecnica e barriere culturali
+Le soluzioni attuali richiedono un certo livello di competenza digitale. Le PMI italiane, specialmente quelle gestite da persone sopra i 45-50 anni, trovano difficile adottare sistemi complessi. L'esperienza utente è pensata per aziende già digitalizzate, non per chi viene da un contesto completamente analogico.
+
+## 3. Resistenza culturale all'automazione
+Solo il 16% dei dipendenti nelle aziende sotto i 500 dipendenti usa l'AI ogni giorno. Il 32% dei dipendenti in aziende che hanno vietato l'AI la usa di nascosto. Tra quelle poche che usano l'AI, quasi la metà (45,3%) si limita all'AI generativa per il linguaggio. C'è diffidenza verso l'automazione e scarsa comprensione dei benefici reali.
+
+## 4. Scarsa scalabilità delle soluzioni
+Le PMI cercano soluzioni che possano adattarsi e crescere insieme all'azienda, aumentando progressivamente le funzionalità senza la necessità di avviare nuovi progetti da zero. Invece trovano strumenti che richiedono implementazioni complesse o che non parlano fra loro, costringendo a cambiare completamente sistema quando crescono.
+
+## 5. Difficoltà nell'integrazione con sistemi esistenti
+Molte PMI già utilizzano alcuni strumenti (Excel, software contabile tradizionale, sistemi locali) e hanno difficoltà a migrare verso soluzioni complete. Le nuove soluzioni spesso non si integrano bene con i sistemi legacy, richiedendo duplicazione di lavoro o formazione supplementare.
+
 # PAIN POINTS AGGIORNATO AL 2026-03-24
 
 ## 1. Mancanza di soluzioni economiche e semplici per aziende piccolissime

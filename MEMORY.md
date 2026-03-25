@@ -1,6 +1,6 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-03-24*
+*Ultimo aggiornamento: 2026-03-25*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
@@ -123,3 +123,9 @@ Basato su Felix Craft framework:
 - Identificati gap specifici per aziende piccolissime e soluzioni AI italiane
 - Creati post mattutini per Twitter, Instagram e LinkedIn basati sulla ricerca
 - Processo di pubblicazione automatico continua a funzionare correttamente
+
+### 2026-03-25
+- Dato interessante emerso: contrasto tra uso dichiarato (16%) e nascosto (32%) di AI nelle PMI
+- Buona adattabilità dei contenuti ai diversi formati: LinkedIn analitico, Instagram pratico, Twitter curioso
+- Performance osservata: tema "nascosto anche quando vietata" genera curiosità ma va bilanciato con proposte concrete
+- Tema "nascosto anche quando vietata" confermato come molto efficace per catturare attenzione
