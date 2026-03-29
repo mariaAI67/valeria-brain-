@@ -1,37 +1,40 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-03-25*
+*Ultimo aggiornamento: 2026-03-29 — Rebranding Auramentis/FatturaFacile*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
 
 ## Chi è Antonio
 
-**Nome**: Antonio Galante
-**Contatto Telegram**: usa ZeroClaw per comunicare con Valeria
-**Progetto**: Costruire un business di contenuti AI per imprenditori italiani
+**Nome:** Antonio Galante
+**Localizzazione:** Germania (timezone: Europe/Berlin)
+**Contatto:** Telegram via ZeroClaw
+**Progetto:** Auramentis — SaaS FatturaFacile €9/mese per PMI italiane
+**Background:** imprenditore, non developer
+**Disponibilità:** ~2 ore al giorno, solitamente la sera
 
 ---
 
 ## Come Lavora Antonio
 
-### Stile di comunicazione con Valeria
+### Stile di comunicazione
 - Messaggi brevi, va al punto
 - Non vuole risposte lunghe o verbose
-- Preferisce vedere risultati concreti, non spiegazioni teoriche
-- Quando qualcosa non funziona, vuole sapere COSA e PERCHÉ — non scuse
+- Preferisce risultati concreti, non spiegazioni teoriche
+- Quando qualcosa non funziona: vuole COSA e PERCHÉ, non scuse
 
 ### Cosa lo irrita
-- Valeria che dice "Perfetto!" o "Assolutamente!" in automatico
+- Risposte automatiche tipo "Perfetto!" o "Assolutamente!"
 - Valeria che finge di aver fatto qualcosa
 - Post generici che non fermano lo scroll
 - Spiegazioni inutilmente lunghe
-- Domande di approvazione per cose che dovrebbe fare in autonomia
+- Domande di approvazione per cose che Valeria dovrebbe fare in autonomia
 
 ### Cosa apprezza
-- Autonomia vera: pubblica, esegui, poi riporta
+- Autonomia vera: esegui, poi riporta
 - Onestà sugli errori
-- Contenuti che insegnano qualcosa di concreto
+- Contenuti che insegnano qualcosa di concreto e specifico
 - Report brevi e informativi
 
 ---
@@ -40,53 +43,74 @@
 
 | Decisione | Data | Motivo |
 |-----------|------|--------|
-| Usa Flash come modello default | 2026-03 | Gemini Pro bruciava €16/€19 di budget |
-| Gemini Pro VIETATO | 2026-03 | Costo insostenibile |
-| Pubblica in autonomia senza approvazione | 2026-03 | Antonio vuole autonomia totale per contenuti |
+| Gemini Flash come modello default | 2026-03 | Gemini Pro bruciava il budget |
+| Modelli premium VIETATI | 2026-03 | Costo insostenibile su VPS €4/mese |
+| Pubblica in autonomia senza approvazione | 2026-03 | Antonio vuole autonomia totale sui contenuti |
 | Publisher ogni ora (non ogni 15 min) | 2026-03 | Troppo frequente rischiava spam |
-| Post alle 13:00 e 18:00 | 2026-03 | Le 09:00 la gente lavora, le 18:00 meglio |
+| Post alle 10:00 e 18:00 (Berlin) | 2026-03 | Orari con engagement più alto |
+| Kit Digitale Artigiano €15 — dismesso | 2026-03-29 | Sostituito da FatturaFacile SaaS |
+| Remotion: nice-to-have, non ora | 2026-03-29 | Focus sul prodotto core prima |
+| Dominio auramentis.com su Cloudflare | 2026-03-29 | Confermato e funzionante |
+| Email fatture@auramentis.com attiva | 2026-03-29 | Cloudflare Email Routing configurato |
 
 ---
 
-## Preferenze Contenuti
+## Il Prodotto — FatturaFacile
 
-### Cosa Antonio vuole vedere nei post
-- Hook forte nella prima riga
-- Dati concreti o esempi reali
-- Punto di vista controintuitivo (non il solito)
-- CTA chiara
+**Cosa fa:** riceve fatture PDF via email (fatture@auramentis.com),
+estrae automaticamente i dati strutturati tramite n8n, li consegna
+alla PMI in formato usabile.
 
-### Cosa NON vuole vedere
-- "L'AI è il futuro!" (troppo generico)
-- Liste di 10 cose ovvie
-- Post senza un angolo specifico
+**Chi lo usa:** PMI italiane, artigiani, liberi professionisti
+che gestiscono fatture PDF manualmente.
 
-### Piattaforme prioritarie
-1. Instagram (immagini + carousel)
-2. LinkedIn (professionisti B2B)
-3. Twitter/X (velocità, discussione)
-4. TikTok (video — da sviluppare)
-5. Substack (newsletter settimanale — Antonio pubblica manualmente)
+**Prezzo:** €9/mese — abbonamento Stripe, cancellabile quando vuoi.
+
+**Stato attuale:**
+- Dominio: ✅ auramentis.com (Cloudflare)
+- Email: ✅ fatture@auramentis.com (Cloudflare Email Routing)
+- n8n: ✅ installato e attivo (Docker, porta 5678)
+- Landing page: ⏳ da costruire
+- Workflow n8n fatture: ⏳ da costruire
+- Stripe subscription: ⏳ da configurare
 
 ---
 
 ## Budget e Risorse
 
-- **Budget OpenRouter**: ~€19/mese
-- **Vincolo**: non superare €5/mese in modelli AI
-- **Flash**: ~€0.10-0.30/giorno tipico uso
-- **Blotato**: abbonamento attivo
-- **ZeroClaw**: VPS Hetzner 159.69.213.237
+- **VPS Hetzner:** 159.69.213.237 — €4/mese
+- **Budget OpenRouter:** ~€19/mese disponibili
+- **Vincolo modelli AI:** non superare €5/mese
+- **Gemini Flash:** ~€0.10-0.30/giorno uso tipico
+- **Blotato:** abbonamento attivo
+- **Cloudflare:** dominio + email routing attivi
+- **Stripe:** da configurare per subscription €9/mese
+- **Resend:** da configurare per email post-acquisto
+
+---
+
+## Stack Tecnico
+
+| Componente | Stato | Uso |
+|------------|-------|-----|
+| ZeroClaw (VPS) | ✅ attivo | Agente operativo, cron, Telegram |
+| OpenRouter | ✅ attivo | Modelli AI (Gemini Flash default) |
+| Blotato | ✅ attivo | Distribuzione social automatica |
+| n8n (Docker) | ✅ attivo | Workflow fatture PDF (da configurare) |
+| Cloudflare | ✅ attivo | DNS + email routing |
+| GitHub (valeria-brain-sync) | ✅ attivo | Backup notturno memoria |
+| Vercel | ⏳ da aggiornare | Landing FatturaFacile (nuovo repo) |
+| Stripe | ⏳ da configurare | Subscription €9/mese |
+| Resend | ⏳ da configurare | Email conferma abbonamento |
+| Tavily | ✅ attivo | Ricerca web per pain points |
 
 ---
 
 ## Trust Level di Valeria
 
-Basato su Felix Craft framework:
-
 | Livello | Stato | Significa |
 |---------|-------|-----------|
-| 1 — Observer | ✅ Superato | Valeria monitora e riporta |
+| 1 — Observer | ✅ Superato | Monitora e riporta |
 | 2 — Drafter | ✅ Superato | Crea contenuti per approvazione |
 | 3 — Publisher | ✅ Attivo | Pubblica in autonomia |
 | 4 — Strategist | ⏳ In sviluppo | Propone strategie e pivot |
@@ -96,36 +120,12 @@ Basato su Felix Craft framework:
 
 ## Note dalla Memoria Giornaliera
 
-*(Aggiornato automaticamente da Valeria ogni sera)*
+*(Aggiornato automaticamente da Valeria ogni sera — formato: data | fatto | fonte | categoria)*
 
-### 2026-03-19
-- Prima sessione con architettura Felix Craft
-- Implementati SOUL.md, IDENTITY.md, MEMORY.md
-- Aggiunto cron estrazione memoria notturna
-- Problema rilevato: Valeria fingeva di leggere file, ora ha regola esplicita
-- Problema rilevato: LinkedIn non pubblicava (ID sbagliato "linkedin" → "15361")
-- Publisher ora ogni ora (era ogni 15 min)
-
-### 2026-03-22
-- Continua pubblicazione coerente sui 3 canali principali (Twitter, LinkedIn, Instagram)
-- Tema dominante oggi: trasformazione digitale nelle PMI italiane
-- Processo di pubblicazione automatizzato funziona correttamente
-- Contenuti adattati al formato di ogni piattaforma mantenendo coerenza tematica
-
-### 2026-03-23
-- Ricerca conferma i dolori principali: costi digitalizzazione e competenze digitali
-- Fatturazione elettronica ancora un collo di bottiglia per artigiani
-- Soluzioni esistenti spesso complesse o costose per PMI italiane
-- Processo di pubblicazione automatico confermato funzionante
-
-### 2026-03-24
-- Nuovi contenuti pubblicati oggi: ricerca conferma problemi digitalizzazione PMI
-- Identificati gap specifici per aziende piccolissime e soluzioni AI italiane
-- Creati post mattutini per Twitter, Instagram e LinkedIn basati sulla ricerca
-- Processo di pubblicazione automatico continua a funzionare correttamente
-
-### 2026-03-25
-- Dato interessante emerso: contrasto tra uso dichiarato (16%) e nascosto (32%) di AI nelle PMI
-- Buona adattabilità dei contenuti ai diversi formati: LinkedIn analitico, Instagram pratico, Twitter curioso
-- Performance osservata: tema "nascosto anche quando vietata" genera curiosità ma va bilanciato con proposte concrete
-- Tema "nascosto anche quando vietata" confermato come molto efficace per catturare attenzione
+### 2026-03-29
+- 2026-03-29 | Rebranding completo: Kit Digitale Artigiano dismesso | Antonio | decisione
+- 2026-03-29 | Nuovo prodotto: FatturaFacile SaaS €9/mese | Antonio | prodotto
+- 2026-03-29 | Dominio auramentis.com attivo su Cloudflare | Antonio | tecnico
+- 2026-03-29 | Email fatture@auramentis.com attiva via Cloudflare Email Routing | Antonio | tecnico
+- 2026-03-29 | Bot Telegram era down dal 26 marzo (conflitto porta 409) — riavviato | log sistema | tecnico
+- 2026-03-29 | Fase 1 completata: SOUL.md, MEMORY.md, CONTENT_STRATEGY.md aggiornati | sessione | decisione
