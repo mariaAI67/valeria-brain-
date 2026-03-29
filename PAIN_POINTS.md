@@ -1,3 +1,20 @@
+# PAIN POINTS AGGIORNATO AL 2026-03-26
+
+## 1. Costi elevati per soluzioni digitali
+Secondo il rapporto Future Ready Business di Wolters Kluwer, il 61% delle PMI italiane indica il costo come principale ostacolo all'adozione delle tecnologie. Le soluzioni disponibili richiedono abbonamenti mensili o costi iniziali spesso proibitivi per aziende con pochi dipendenti o ricavi limitati. Le PMI italiane risultano tra le meno ottimiste in Europa riguardo alla conformità normativa: mentre il 54% si ritiene abbastanza informato, il 17% dichiara di essere scarsamente preparato, percentuale più alta rispetto al Regno Unito (6%) e ai Paesi Bassi (1%).
+
+## 2. Mancanza di competenze digitali
+Il 47% delle PMI italiane segnala difficoltà legate alla carenza di competenze digitali nel proprio personale. Circa il 28% delle PMI afferma di avere difficoltà a reperire e trattenere personale qualificato. Solo il 27% delle PMI italiane è completamente digitalizzata e appena l'8,2% utilizza tecnologie di intelligenza artificiale, contro una media europea del 13,5%.
+
+## 3. Difficoltà con la fatturazione elettronica
+Molti artigiani non sono formati digitalmente e trovano difficoltoso il passaggio alla fatturazione elettronica. Si segnala che abbiamo la popolazione meno digitale d'Europa e spesso i lavoratori artigiani non hanno familiarità con l'uso del computer per l'emissione delle fatture. Le soluzioni esistenti richiedono conoscenze specifiche e non sono intuitive per operatori non tecnici.
+
+## 4. Lentezza nell'automazione dei processi manuali
+Solo il 23% delle PMI italiane integra l'AI nelle soluzioni di automazione (vs 40% aziende italiane in generale), mostrando un ritardo significativo rispetto alle grandi aziende. Secondo l'Osservatorio Intelligent Business Process Automation del Politecnico di Milano, le PMI hanno cicli operativi che includono vari passaggi manuali che rallentano l'intero processo.
+
+## 5. Gestione frammentata dei clienti
+Le piccole imprese spesso gestiscono i dati dei clienti in modo frammentato, senza un sistema CRM integrato. Ciò porta a errori, duplicazioni e scarsa conoscenza della base clienti. Le soluzioni esistenti sono spesso troppo complesse per le esigenze di una piccola azienda e richiedono configurazioni avanzate.
+
 # PAIN POINTS AGGIORNATO AL 2026-03-25
 
 ## 1. Costo vs Beneficio per PMI piccolissime
