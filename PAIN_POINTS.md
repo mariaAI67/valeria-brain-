@@ -1,3 +1,25 @@
+# PAIN POINTS AGGIORNATO AL 2026-04-01
+
+## 1. Obbligo ricezione fatture elettroniche da settembre 2026
+Dal settembre 2026 la ricezione delle fatture elettroniche sarà obbligatoria per tutte le imprese (ARXivar). Molte micro-imprese e artigiani non hanno ancora un sistema per ricevere e gestire fatture elettroniche in entrata. Chi non si adegua rischia sanzioni del 70% dell'imponibile, minimo 500 euro. Il gap è enorme: tutte le soluzioni esistenti si concentrano sull'emissione, non sulla ricezione automatica.
+**Fonte:** arxivar.com, fiscomania.com
+
+## 2. Crisi di liquidità da obblighi fiscali imprevisti
+1 PMI su 3 in Italia affronta una crisi di liquidità direttamente legata a obblighi fiscali imprevisti, con il versamento IVA come trigger principale. Le piccole imprese non hanno strumenti di monitoraggio cash flow integrati con la fatturazione e scoprono il problema solo quando è troppo tardi.
+**Fonte:** trezy.io
+
+## 3. Ritardi pagamenti in crescita — 4,9% oltre 90 giorni
+Secondo i dati Assifact di giugno 2025, i ritardi oltre i 90 giorni rappresentano il 4,9% del totale fatturato, in crescita. Le PMI non hanno sistemi di sollecito automatico e il recupero crediti è manuale. Per un'azienda con margini stretti, anche pochi ritardi possono essere critici.
+**Fonte:** innovation-nation.it
+
+## 4. 4-6 ore settimanali perse in attività amministrative manuali
+Un artigiano o piccolo imprenditore perde in media 4-6 ore a settimana tra preventivi, ordini e fatture manuali. Moltiplicato per l'anno intero, è il processo meno produttivo dell'azienda. Non esiste una soluzione economica che automatizzi questo flusso per le micro-imprese.
+**Fonte:** Instagram (business automation data)
+
+## 5. Nessuna riconciliazione automatica fatture-pagamenti
+Le PMI usano 10+ strumenti che non comunicano tra loro: gestionale, conto bancario, fatturazione elettronica, Excel. La riconciliazione tra fattura emessa e pagamento ricevuto è completamente manuale. Le soluzioni integrate (Trezy, Finom) costano €30-50/mese, troppo per micro-imprese.
+**Fonte:** innovation-nation.it
+
 # PAIN POINTS AGGIORNATO AL 2026-03-26
 
 ## 1. Costi elevati per soluzioni digitali
