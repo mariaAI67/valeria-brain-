@@ -1,3 +1,25 @@
+# PAIN POINTS AGGIORNATO AL 2026-04-02
+
+## 1. Sanzione codice destinatario errato — €220 per fattura
+Dal 2026 la sanzione per codice destinatario errato è di €220 per ogni fattura, con un massimo di €2.200 se l'errore riguarda più di 10 fatture della stessa serie. Le micro-imprese spesso non aggiornano il codice destinatario quando il fornitore cambia intermediario. L'errore è invisibile finché non arriva la notifica di sanzione.
+**Fonte:** srlonline.com, Agenzia delle Entrate
+
+## 2. PEC piena = fattura non ricevuta = sanzione automatica
+Se la PEC aziendale è piena o il server del software ha problemi tecnici, la fattura elettronica non viene recapitata. Il documento viene messo a disposizione nel Cassetto Fiscale dell'Agenzia delle Entrate, ma l'imprenditore non lo sa. La data di ricezione diventa quella di presa visione sul portale — e la scadenza IVA può già essere passata.
+**Fonte:** fattureincloud.it, Aruba
+
+## 3. Piano SFERA — Agenzia Entrate usa AI per trovare irregolarità
+Nel marzo 2026, Istat e Agenzia delle Entrate hanno avviato il Piano SFERA: l'Agenzia usa AI per distinguere chi è in regola da chi è a rischio evasione. Le micro-imprese con errori ricorrenti (codice destinatario sbagliato, TD29 errato, ritardi) saranno identificate più rapidamente. Serve prevenzione, non correzione post-sanction.
+**Fonte:** ANSA.it, Il Sole 24 Ore
+
+## 4. TD29 — procedura cambiata nel 2025, le micro-imprese non lo sanno
+Dal settembre 2024 (piena applicazione 2025-2026), in caso di mancata ricezione fattura o fattura irregolare non si usa più l'autofattura ma la comunicazione TD29 all'Agenzia delle Entrate. Le micro-imprese continuano a usare la vecchia procedura (TD20) generando errori formali sanzionabili.
+**Fonte:** autofattura.io
+
+## 5. Costo commercialista gonfiato da dati disorganizzati (€500-€5.000+/anno)
+Il costo annuale di un commercialista varia da €500 a €5.000+ per SRL. La gestione delle fatture elettroniche ricevute è una delle voci che gonfia il costo perché il commercialista deve processare manualmente i documenti che il cliente porta in formato disorganizzato. Un sistema di ricezione automatica ridurrebbe drasticamente il tempo del commercialista.
+**Fonte:** soluzionetasse.com, studipa.com
+
 # PAIN POINTS AGGIORNATO AL 2026-04-01
 
 ## 1. Obbligo ricezione fatture elettroniche da settembre 2026
