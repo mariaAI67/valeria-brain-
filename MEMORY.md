@@ -1,6 +1,6 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-03-29 — Rebranding Auramentis/FatturaFacile*
+*Ultimo aggiornamento: 2026-04-04 — Estrazione memoria giornaliera*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
@@ -138,3 +138,7 @@ che gestiscono fatture PDF manualmente.
 - 2026-04-01 | Gap mercato: nessuna soluzione economica (€9/mese) per fatture IN ENTRATA | research/RESEARCH_2026-04-01.md | prodotto
 - 2026-04-01 | 1 PMI su 3 ha crisi liquidità per obblighi fiscali imprevisti | research/RESEARCH_2026-04-01.md | prodotto
 - 2026-04-01 | Trezy €49/mese troppo caro per micro-imprese — valida prezzo €9/mese | research/RESEARCH_2026-04-01.md | prodotto
+
+### 2026-04-04
+
+*Estrazione memoria completata. Nessun nuovo fatto duraturo da aggiungere.*
