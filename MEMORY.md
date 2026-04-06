@@ -1,40 +1,56 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-04-04 — Estrazione memoria giornaliera*
+*Ultimo aggiornamento: 2026-04-06*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
 
 ## Chi è Antonio
 
-**Nome:** Antonio Galante
-**Localizzazione:** Germania (timezone: Europe/Berlin)
-**Contatto:** Telegram via ZeroClaw
-**Progetto:** Auramentis — SaaS FatturaFacile €9/mese per PMI italiane
-**Background:** imprenditore, non developer
-**Disponibilità:** ~2 ore al giorno, solitamente la sera
+**Nome**: Antonio Galante
+**Localizzazione**: Germania (timezone: Europe/Berlin)
+**Contatto**: Telegram via ZeroClaw
+**Progetto attuale**: **PMI.italia** — Dashboard SaaS per imprenditori italiani
+**Background**: imprenditore, non developer
+**Disponibilità**: ~2 ore al giorno, solitamente la sera
+
+---
+
+## Il Progetto: PMI.italia
+
+**Cos'è**: Dashboard SaaS completa per le PMI italiane — suite per digitalizzare la gestione aziendale.
+**Prodotto core**: PMI.italia — include dashboard realtime incassi, preventivi 2clic, fatture, pagamenti e scadenze automatiche.
+**Prezzo**: A partire da €29/mese (piano base 1 utente), €59/mese (multi-utente).
+**Target**: micro-imprese e artigiani italiani (1-10 dipendenti)
+**Fase attuale**: costruzione dashboard + posizionamento contenuti social
+
+**Roadmap a grandi linee:**
+1. PMI.italia dashboard più performante e completa → IN SVILUPPO
+2. Valeria stabile e autonoma nei processi → IN CORSO
+3. Sistema di lead scraping per trovare clienti PMI → FUTURO
+4. Outreach automatizzato → FUTURO
 
 ---
 
 ## Come Lavora Antonio
 
-### Stile di comunicazione
+### Stile di comunicazione con Valeria
 - Messaggi brevi, va al punto
 - Non vuole risposte lunghe o verbose
-- Preferisce risultati concreti, non spiegazioni teoriche
-- Quando qualcosa non funziona: vuole COSA e PERCHÉ, non scuse
+- Preferisce vedere risultati concreti, non spiegazioni teoriche
+- Quando qualcosa non funziona, vuole sapere COSA e PERCHÉ — non scuse
 
 ### Cosa lo irrita
-- Risposte automatiche tipo "Perfetto!" o "Assolutamente!"
+- Valeria che dice "Perfetto!" o "Assolutamente!" in automatico
 - Valeria che finge di aver fatto qualcosa
 - Post generici che non fermano lo scroll
 - Spiegazioni inutilmente lunghe
-- Domande di approvazione per cose che Valeria dovrebbe fare in autonomia
+- Domande di approvazione per cose che dovrebbe fare in autonomia
 
 ### Cosa apprezza
-- Autonomia vera: esegui, poi riporta
+- Autonomia vera: pubblica, esegui, poi riporta
 - Onestà sugli errori
-- Contenuti che insegnano qualcosa di concreto e specifico
+- Contenuti che insegnano qualcosa di concreto
 - Report brevi e informativi
 
 ---
@@ -43,74 +59,59 @@
 
 | Decisione | Data | Motivo |
 |-----------|------|--------|
-| Gemini Flash come modello default | 2026-03 | Gemini Pro bruciava il budget |
-| Modelli premium VIETATI | 2026-03 | Costo insostenibile su VPS €4/mese |
-| Pubblica in autonomia senza approvazione | 2026-03 | Antonio vuole autonomia totale sui contenuti |
+| Modello default: x-ai/grok-4.1-fast | 2026-04-06 | Veloce, vision, economico |
+| Gemini Pro VIETATO | 2026-03 | Costo insostenibile |
+| Pubblica in autonomia senza approvazione | 2026-03 | Antonio vuole autonomia totale |
 | Publisher ogni ora (non ogni 15 min) | 2026-03 | Troppo frequente rischiava spam |
-| Post alle 10:00 e 18:00 (Berlin) | 2026-03 | Orari con engagement più alto |
-| Kit Digitale Artigiano €15 — dismesso | 2026-03-29 | Sostituito da FatturaFacile SaaS |
-| Remotion: nice-to-have, non ora | 2026-03-29 | Focus sul prodotto core prima |
-| Dominio auramentis.com su Cloudflare | 2026-03-29 | Confermato e funzionante |
-| Email fatture@auramentis.com attiva | 2026-03-29 | Cloudflare Email Routing configurato |
+| Post alle 13:00 e 18:00 | 2026-03 | Orari ottimali engagement |
+| Pipeline immagini: HTML template → Puppeteer | 2026-04-06 | €0, nessuna API esterna |
+| Template ruota settimanalmente (4 template) | 2026-04-06 | Brand coerente senza costi |
+| Blotato: mantenere fino a maggio 2026 | 2026-04-06 | Abbonamento attivo fino al 3 maggio |
+| Migrazione n8n dopo maggio | 2026-04-06 | Replacement gratuito Blotato |
 
 ---
 
-## Il Prodotto — FatturaFacile
+## Preferenze Contenuti
 
-**Cosa fa:** riceve fatture PDF via email (fatture@auramentis.com),
-estrae automaticamente i dati strutturati tramite n8n, li consegna
-alla PMI in formato usabile.
+### Cosa Antonio vuole vedere nei post
+- Hook forte nella prima riga — DEVE fermare lo scroll
+- Dati concreti o esempi reali (es. "47 minuti → 120€ risparmiati")
+- Punto di vista controintuitivo (non il solito)
+- CTA chiara e contestuale
+- Immagine premium allegata (template settimanale PMI.italia)
 
-**Chi lo usa:** PMI italiane, artigiani, liberi professionisti
-che gestiscono fatture PDF manualmente.
+### Cosa NON vuole vedere
+- "L'AI è il futuro!" (troppo generico)
+- Liste di 10 cose ovvie
+- Post senza un angolo specifico
+- Immagini brutte o placeholder
 
-**Prezzo:** €9/mese — abbonamento Stripe, cancellabile quando vuoi.
-
-**Stato attuale:**
-- Dominio: ✅ auramentis.com (Cloudflare)
-- Email: ✅ fatture@auramentis.com (Cloudflare Email Routing)
-- n8n: ✅ installato e attivo (Docker, porta 5678)
-- Landing page: ⏳ da costruire
-- Workflow n8n fatture: ⏳ da costruire
-- Stripe subscription: ⏳ da configurare
+### Piattaforme prioritarie
+1. Instagram (immagini + carousel)
+2. LinkedIn (professionisti B2B)
+3. Twitter/X (velocità, discussione)
+4. TikTok (video — da sviluppare)
+5. Substack (newsletter — Antonio pubblica manualmente)
 
 ---
 
 ## Budget e Risorse
 
-- **VPS Hetzner:** 159.69.213.237 — €4/mese
-- **Budget OpenRouter:** ~€19/mese disponibili
-- **Vincolo modelli AI:** non superare €5/mese
-- **Gemini Flash:** ~€0.10-0.30/giorno uso tipico
-- **Blotato:** abbonamento attivo
-- **Cloudflare:** dominio + email routing attivi
-- **Stripe:** da configurare per subscription €9/mese
-- **Resend:** da configurare per email post-acquisto
-
----
-
-## Stack Tecnico
-
-| Componente | Stato | Uso |
-|------------|-------|-----|
-| ZeroClaw (VPS) | ✅ attivo | Agente operativo, cron, Telegram |
-| OpenRouter | ✅ attivo | Modelli AI (Gemini Flash default) |
-| Blotato | ✅ attivo | Distribuzione social automatica |
-| n8n (Docker) | ✅ attivo | Workflow fatture PDF (da configurare) |
-| Cloudflare | ✅ attivo | DNS + email routing |
-| GitHub (valeria-brain-sync) | ✅ attivo | Backup notturno memoria |
-| Vercel | ⏳ da aggiornare | Landing FatturaFacile (nuovo repo) |
-| Stripe | ⏳ da configurare | Subscription €9/mese |
-| Resend | ⏳ da configurare | Email conferma abbonamento |
-| Tavily | ✅ attivo | Ricerca web per pain points |
+- **Budget OpenRouter**: ~€19/mese
+- **Vincolo**: non superare €5/mese in modelli AI
+- **Grok 4.1 Fast**: ~€0.30 input / €0.90 output per milione token (economico)
+- **Blotato**: abbonamento attivo fino al 3 maggio 2026
+- **ZeroClaw VPS**: Hetzner 159.69.213.237
 
 ---
 
 ## Trust Level di Valeria
 
+Basato su Felix Craft framework:
+
 | Livello | Stato | Significa |
 |---------|-------|-----------|
-| 1 — Observer | ✅ Superato | Monitora e riporta |
+| 1 — Observer | ✅ Superato | Valeria monitora e riporta |
 | 2 — Drafter | ✅ Superato | Crea contenuti per approvazione |
 | 3 — Publisher | ✅ Attivo | Pubblica in autonomia |
 | 4 — Strategist | ⏳ In sviluppo | Propone strategie e pivot |
@@ -118,27 +119,24 @@ che gestiscono fatture PDF manualmente.
 
 ---
 
-## Note dalla Memoria Giornaliera
+## Note dalla Memoria
 
-*(Aggiornato automaticamente da Valeria ogni sera — formato: data | fatto | fonte | categoria)*
-
-### 2026-03-29
-- 2026-03-29 | Rebranding completo: Kit Digitale Artigiano dismesso | Antonio | decisione
-- 2026-03-29 | Nuovo prodotto: FatturaFacile SaaS €9/mese | Antonio | prodotto
-- 2026-03-29 | Dominio auramentis.com attivo su Cloudflare | Antonio | tecnico
-- 2026-03-29 | Email fatture@auramentis.com attiva via Cloudflare Email Routing | Antonio | tecnico
-- 2026-03-29 | Bot Telegram era down dal 26 marzo (conflitto porta 409) — riavviato | log sistema | tecnico
-- 2026-03-29 | Fase 1 completata: SOUL.md, MEMORY.md, CONTENT_STRATEGY.md aggiornati | sessione | decisione
-
-### 2026-04-01
-- 2026-04-01 | Obbligo ricezione fatture elettroniche da settembre 2026 per tutte le imprese | research/RESEARCH_2026-04-01.md | prodotto
-- 2026-04-01 | Sanzione mancata gestione fatture: 70% imponibile, minimo 500€ | research/RESEARCH_2026-04-01.md | prodotto
-- 2026-04-01 | 70% piccole realtà senza sistema strutturato per fatture in entrata | research/RESEARCH_2026-04-01.md | prodotto
-- 2026-04-01 | Artigiano medio perde 200-260 ore/anno su data entry fatture | research/RESEARCH_2026-04-01.md | prodotto
-- 2026-04-01 | Gap mercato: nessuna soluzione economica (€9/mese) per fatture IN ENTRATA | research/RESEARCH_2026-04-01.md | prodotto
-- 2026-04-01 | 1 PMI su 3 ha crisi liquidità per obblighi fiscali imprevisti | research/RESEARCH_2026-04-01.md | prodotto
-- 2026-04-01 | Trezy €49/mese troppo caro per micro-imprese — valida prezzo €9/mese | research/RESEARCH_2026-04-01.md | prodotto
+### 2026-03-25
+- Dato interessante: contrasto tra uso dichiarato (16%) e nascosto (32%) di AI nelle PMI
+- Tema "nascosto anche quando vietata" confermato come molto efficace per catturare attenzione
 
 ### 2026-04-04
+- Articolo Substack creato con successo
+- Post social mattina e sera creati e salvati in `content/ready-to-publish/`
+- Estrazione memoria giornaliera completata
+- Backup notturno eseguito correttamente
 
-*Estrazione memoria completata. Nessun nuovo fatto duraturo da aggiungere.*
+### 2026-04-06
+- AUDIT VPS completato: sistema funzionante, identificati e risolti 4 problemi
+- Modello cambiato: qwen → x-ai/grok-4.1-fast (tutti i 6 cron jobs aggiornati)
+- Pipeline immagini NUOVA installata: HTML template + Puppeteer (€0, 4 template rotativi)
+- Chromium installato sul VPS per screenshots headless
+- Prossimo obiettivo: PMI.italia dashboard + lead generation system
+
+### 2026-04-06 (Estrazione Giornaliera)
+Nessun fatto duraturo identificato oggi. Contenuti temporanei: 6 post social pubblicati su FatturaFacile (tema: automazione fatture PDF per PMI, 16-32 ore/mese risparmiate).
