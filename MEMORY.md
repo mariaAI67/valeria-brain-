@@ -1,6 +1,6 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-04-06*
+*Ultimo aggiornamento: 2026-04-07*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
@@ -140,3 +140,6 @@ Basato su Felix Craft framework:
 
 ### 2026-04-06 (Estrazione Giornaliera)
 Nessun fatto duraturo identificato oggi. Contenuti temporanei: 6 post social pubblicati su FatturaFacile (tema: automazione fatture PDF per PMI, 16-32 ore/mese risparmiate).
+
+### 2026-04-07 (Estrazione Giornaliera)
+Nessun fatto duraturo identificato oggi. Contenuti temporanei: 6 post social pubblicati su FatturaFacile (tema: automazione fatture PDF per PMI, 260 ore/anno ISTAT, dashboard realtime incassi).
