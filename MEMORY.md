@@ -1,6 +1,6 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-04-07*
+*Ultimo aggiornamento: 2026-04-09*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
@@ -119,7 +119,7 @@ Basato su Felix Craft framework:
 
 ---
 
-## Note dalla Memoria
+## Note dalla Memoria Giornaliera
 
 ### 2026-03-25
 - Dato interessante: contrasto tra uso dichiarato (16%) e nascosto (32%) di AI nelle PMI
@@ -143,3 +143,9 @@ Nessun fatto duraturo identificato oggi. Contenuti temporanei: 6 post social pub
 
 ### 2026-04-07 (Estrazione Giornaliera)
 Nessun fatto duraturo identificato oggi. Contenuti temporanei: 6 post social pubblicati su FatturaFacile (tema: automazione fatture PDF per PMI, 260 ore/anno ISTAT, dashboard realtime incassi).
+
+### 2026-04-09
+2026-04-09 | Sanzione €270 per fattura elettronica (FE) in ritardo di soli 2 giorni | post Twitter mattina | prodotto
+2026-04-09 | PMI italiane perdono 260 ore/anno in burocrazia manuale (PDF fornitori, Excel, scadenze) | post Instagram/LinkedIn mattina | prodotto
+2026-04-09 | Automatizzazione fatture risparmia 208 ore/anno (da 260 totali) | post Instagram/LinkedIn sera | prodotto
+2026-04-09 | Gestione manuale PDF fornitori ruba 4-6 ore/settimana | post Instagram mattina | prodotto
