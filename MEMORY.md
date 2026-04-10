@@ -1,6 +1,6 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-04-09*
+*Ultimo aggiornamento: 2026-04-10*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
@@ -41,7 +41,7 @@
 - Quando qualcosa non funziona, vuole sapere COSA e PERCHÉ — non scuse
 
 ### Cosa lo irrita
-- Valeria che dice "Perfetto!" o "Assolutamente!" in automatico
+- Valeria che dice \"Perfetto!\" o \"Assolutamente!\" in automatico
 - Valeria che finge di aver fatto qualcosa
 - Post generici che non fermano lo scroll
 - Spiegazioni inutilmente lunghe
@@ -75,13 +75,13 @@
 
 ### Cosa Antonio vuole vedere nei post
 - Hook forte nella prima riga — DEVE fermare lo scroll
-- Dati concreti o esempi reali (es. "47 minuti → 120€ risparmiati")
+- Dati concreti o esempi reali (es. \"47 minuti → 120€ risparmiati\")
 - Punto di vista controintuitivo (non il solito)
 - CTA chiara e contestuale
 - Immagine premium allegata (template settimanale PMI.italia)
 
 ### Cosa NON vuole vedere
-- "L'AI è il futuro!" (troppo generico)
+- \"L'AI è il futuro!\" (troppo generico)
 - Liste di 10 cose ovvie
 - Post senza un angolo specifico
 - Immagini brutte o placeholder
@@ -123,7 +123,7 @@ Basato su Felix Craft framework:
 
 ### 2026-03-25
 - Dato interessante: contrasto tra uso dichiarato (16%) e nascosto (32%) di AI nelle PMI
-- Tema "nascosto anche quando vietata" confermato come molto efficace per catturare attenzione
+- Tema \"nascosto anche quando vietata\" confermato come molto efficace per catturare attenzione
 
 ### 2026-04-04
 - Articolo Substack creato con successo
@@ -149,3 +149,8 @@ Nessun fatto duraturo identificato oggi. Contenuti temporanei: 6 post social pub
 2026-04-09 | PMI italiane perdono 260 ore/anno in burocrazia manuale (PDF fornitori, Excel, scadenze) | post Instagram/LinkedIn mattina | prodotto
 2026-04-09 | Automatizzazione fatture risparmia 208 ore/anno (da 260 totali) | post Instagram/LinkedIn sera | prodotto
 2026-04-09 | Gestione manuale PDF fornitori ruba 4-6 ore/settimana | post Instagram mattina | prodotto
+
+### 2026-04-10
+2026-04-10 | Sanzione €270 per fattura elettronica (FE) in ritardo di soli 2 giorni | post multipli Twitter/Instagram/LinkedIn | prodotto
+2026-04-10 | PMI italiane perdono 260 ore/anno in burocrazia manuale (PDF fornitori, Excel, scadenze) | post Instagram/LinkedIn mattina | prodotto
+2026-04-10 | Automatizzazione fatture risparmia tempo significativo (es. 4-6 ore/settimana su PDF fornitori) | post Instagram/LinkedIn sera | prodotto
