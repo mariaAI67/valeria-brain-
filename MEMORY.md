@@ -1,6 +1,6 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-04-10*
+*Ultimo aggiornamento: 2026-04-11*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
@@ -154,3 +154,6 @@ Nessun fatto duraturo identificato oggi. Contenuti temporanei: 6 post social pub
 2026-04-10 | Sanzione €270 per fattura elettronica (FE) in ritardo di soli 2 giorni | post multipli Twitter/Instagram/LinkedIn | prodotto
 2026-04-10 | PMI italiane perdono 260 ore/anno in burocrazia manuale (PDF fornitori, Excel, scadenze) | post Instagram/LinkedIn mattina | prodotto
 2026-04-10 | Automatizzazione fatture risparmia tempo significativo (es. 4-6 ore/settimana su PDF fornitori) | post Instagram/LinkedIn sera | prodotto
+
+### 2026-04-11
+Nessun nuovo fatto duraturo identificato oggi. I post ripetono statistiche già note (sanzione €270, 260 ore/anno ISTAT, 4-6h/settimana PDF manuali), confermate ma non nuove.
