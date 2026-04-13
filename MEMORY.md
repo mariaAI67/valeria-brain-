@@ -1,6 +1,6 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-04-11*
+*Ultimo aggiornamento: 2026-04-13*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
