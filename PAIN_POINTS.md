@@ -1,28 +1,56 @@
-### Pain Points Aggiunti — 2026-04-08
+### Pain Points Aggiunti — 2026-04-19
 
-1. **Esoneri Istat 240k compilazioni ma FE perfetta richiesta**: Integrazione FE-Istat esonera questionari IVA, ma errori ricorrenti causano verifiche/perdita esoneri (ANSA.it).
+1. **Piano Sfera 2026**: FE per esoneri Istat 240k compilazioni, ma PMI con FE imperfetta perdono beneficio (es. errori SDI → verifiche manuali, ANSA/PMI.it).
 
-2. **PEC piena/server down = FE \"messa a disposizione\" data ritardata**: Scadenze IVA perse, sanzioni detrazione tardiva (Fatture in Cloud, Aruba).
+2. **Incasso medio PMI 82 giorni**: Ritardi cash flow da FE/SDI manuali → liquidità bloccata (es. 82gg vs UE 30gg, Innovation Nation).
 
-3. **Errori autofattura elettronici comuni**: Cod. destinatario/SDI errato, mancanza allegati → scarti SDI, sanzioni 70% min. €300 (autofattura.io).
+3. **Ciclo passivo manuale**: Centinaia PDF/mese da leggere/abbinare ordini → ore/mese perse (es. reparto acquisti caos, Marcopericci).
 
-4. **Gestione PDF fornitori artigiani**: 4-6h/settimana copiate manualmente, €200/mese costo opportunità (Instagram).
+4. **Automazione su processi rotti**: PEC perse/approvazioni confuse → tool peggiora (es. documenti email persi, Studio Cortelli).
 
-5. **Fatturazione PA 2026 complessa per micro-PMI**: Codice univoco/split payment causano ritardi SDI (fatto.com).
+5. **Riforma FE 2026 adeguamento**: Spese tech/processi per PMI impreparate (es. nuove regole conformità, Aurum Italy).
 
 ---
 
-### Pain Points Aggiunti — 2026-04-07
+### Pain Points Aggiunti — 2026-04-14
 
-1. **Controlli IVA automatizzati 2026**: AI Agenzia incrocia FE-liquidazioni. PMI senza automazione rischiano audit rapidi (PMI.it).
+1. **Obbligo FE B2B 2026**: PMI impreparate fornitori esteri, ritardi SDI (Namirial).
 
-2. **Estrazione PDF email fornitori**: 4-6h/settimana perse, €200/mese costo opportunità (Instagram besttechpartner).
+2. **Ricevute POS/pagamenti PA marzo 2026**: Nuove regole gestione manuale (Aruba).
 
-3. **PEC piena = FE non ricevuta**: Data ricezione ritardata, sanzioni IVA (Fatture in Cloud).
+3. **Ciclo passivo manuale**: Centinaia PDF/mese verificare/abbinare (Marcopericci).
 
-4. **Costo commercialista gonfiato da FE manuale**: €500-5000/anno, 20-30% da processare PDF (soluzionetasse).
+4. **Automazione fallisce processi rotti**: PEC perse, approvazioni confuse (Studio Cortelli).
 
-5. **Piano SFERA AI Agenzia**: Identifica errori SDI prima (ANSA).
+5. **Software complessi PMI**: Zucchetti/Odoo setup >1h (Zucchetti).
+
+---
+
+### Pain Points Aggiunti — 2026-04-12
+
+1. **4-6 ore/settimana PDF fornitori manuali**: Artigiani copiano dati fatture email → perdite tempo (Instagram PMI).
+
+2. **Sanzioni €270/ritardo 2gg FE 2026**: Tolleranza zero errori/data (srlonline.com).
+
+3. **PEC piena → perdita detrazione IVA**: Ritardo presa visione = sanzioni (Fatture in Cloud).
+
+4. **Errori SDI 00423 decimali sconti**: Arrotondamenti scarti fatture (Agenzia Entrate).
+
+5. **Costi comm. €3-5k/anno SRL**: FE + contabilità (Studipa).
+
+---
+
+### Pain Points Aggiunti — 2026-04-11
+
+1. **Obbligo ricezione FE 1° Set 2026 tutti IVA**: PMI non pronte → PEC/Cassetto Fiscale ritardi presa visione/scadenze IVA/sanzioni (Arxivar, Confcommercio).
+
+2. **Controlli IVA 2026 incroci auto FE-liquidazioni-corrispettivi**: Piattaforma identifica discrepanze → audit immediati Excel manuale (PMI.it).
+
+3. **SDI errore 00423 (2.2.1.11 sconti specs)**: Decimali sconto 2 vs prezzo 8 → arrotondamenti errati/scarti (Agenzia Entrate).
+
+4. **PEC piena → FE Cassetto data=presa visione ritardata**: Sanzioni detrazione IVA (Fatture in Cloud).
+
+5. **Costi comm. FE manuale €400+ forfettario €3-5k SRL**: 20-30% PDF/riconciliazioni (Studipa, Qonto, Reddit).
 
 ---
 
