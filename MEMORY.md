@@ -1,6 +1,6 @@
 # MEMORY.md — Preferenze e Contesto di Antonio
 
-*Ultimo aggiornamento: 2026-04-19*
+*Ultimo aggiornamento: 2026-04-21*
 *Questo file viene aggiornato da Valeria ogni sera tramite estrazione memoria.*
 
 ---
@@ -159,6 +159,9 @@ Nessun fatto duraturo identificato oggi. Contenuti temporanei: 6 post social pub
 Nessun nuovo fatto duraturo identificato oggi. I post ripetono statistiche già note (sanzione €270, 260 ore/anno ISTAT, 4-6h/settimana PDF manuali), confermate ma non nuove.
 
 ### 2026-04-20
+Nessun fatto duraturo identificato oggi.
+
+### 2026-04-21
 Nessun fatto duraturo identificato oggi.
 
 ### Mail come canale di INPUT, mai di COMANDO
